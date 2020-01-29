@@ -17,4 +17,5 @@
 14-copy_html copy all html files, if do not exist, to the parent directory - 
 15-lets_move move all files that start with an uppercase to the directory /tmp/u - 
 16-clean_emacs delete all files that end in ~
-17-tree Create 3 directories welcome/ welcome/to/ welcome/to/ welcome/to/holberton
+17-tree Create 3 directories welcome/ welcome/to/ welcome/to/ welcome/to/holberton - 
+18-commas list all files and directories of the current directory separated by commas
