@@ -15,4 +15,5 @@ BB*Scripts*
 12-file_type print the type of the file name iamafile - 
 13-symbolic_link create a symbolic link named __ls__ in /bin/ls directory - 
 14-copy_html copy all html files, if do not exist, to the parent directory - 
-15-lets_move move all files that start with an uppercase to the directory /tmp/u
+15-lets_move move all files that start with an uppercase to the directory /tmp/u - 
+16-clean_emacs delete all files that end in ~
