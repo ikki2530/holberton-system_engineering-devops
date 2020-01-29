@@ -1,4 +1,4 @@
-*Scripts*
+B*Scripts*
 
 0-current_working_directory print the absolute path of the current working directory - 
 1-listit list files and directories of the current working directory - 
@@ -11,4 +11,5 @@
 8-firstdelete remove the file betty in /tmp/holberton - 
 9-firstdirdeletion delete holberton directory in /tmp/ - 
 10-back back to previous directory - 
-11-lists list files o current, parent and /boot directories in large format
+11-lists list files o current, parent and /boot directories in large format - 
+12-file_type print the type of the file name iamafile
