@@ -1,4 +1,4 @@
-B*Scripts*
+BB*Scripts*
 
 0-current_working_directory print the absolute path of the current working directory - 
 1-listit list files and directories of the current working directory - 
@@ -13,4 +13,5 @@ B*Scripts*
 10-back back to previous directory - 
 11-lists list files o current, parent and /boot directories in large format - 
 12-file_type print the type of the file name iamafile - 
-13-symbolic_link create a symbolic link named __ls__ in /bin/ls directory
+13-symbolic_link create a symbolic link named __ls__ in /bin/ls directory - 
+14-copy_html copy all html files, if do not exist, to the parent directory
