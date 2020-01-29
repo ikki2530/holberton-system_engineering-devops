@@ -1,4 +1,4 @@
-BB*Scripts*
+*Scripts*
 
 0-current_working_directory print the absolute path of the current working directory - 
 1-listit list files and directories of the current working directory - 
@@ -10,4 +10,5 @@ BB*Scripts*
 7-movethatfile move a file from /tmp/ to /tmp/holberton/ - 
 8-firstdelete remove the file betty in /tmp/holberton - 
 9-firstdirdeletion delete holberton directory in /tmp/ - 
-10-back back to previous directory
+10-back back to previous directory - 
+11-lists list files o current, parent and /boot directories in large format
