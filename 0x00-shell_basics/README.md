@@ -1,4 +1,4 @@
-BB*Scripts*
+*Scripts*
 
 0-current_working_directory print the absolute path of the current working directory - 
 1-listit list files and directories of the current working directory - 
@@ -17,3 +17,4 @@ BB*Scripts*
 14-copy_html copy all html files, if do not exist, to the parent directory - 
 15-lets_move move all files that start with an uppercase to the directory /tmp/u - 
 16-clean_emacs delete all files that end in ~
+17-tree Create 3 directories welcome/ welcome/to/ welcome/to/ welcome/to/holberton
