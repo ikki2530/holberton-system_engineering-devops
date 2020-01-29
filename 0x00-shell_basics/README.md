@@ -7,4 +7,5 @@ BB*Scripts*
 4-listmorefiles print current directory contents(including hidden files) - 
 5-listfilesdigitonly dsiplay current directory contents in long format, with user and group IDs and hidden files - 
 6-firstdirectory create a directory named holberton in the /tmp/ - 
-7-movethatfile move a file from /tmp/ to /tmp/holberton/
+7-movethatfile move a file from /tmp/ to /tmp/holberton/ - 
+8-firstdelete remove the file betty in /tmp/holberton 
