@@ -12,4 +12,5 @@ B*Scripts*
 9-firstdirdeletion delete holberton directory in /tmp/ - 
 10-back back to previous directory - 
 11-lists list files o current, parent and /boot directories in large format - 
-12-file_type print the type of the file name iamafile
+12-file_type print the type of the file name iamafile - 
+13-symbolic_link create a symbolic link named __ls__ in /bin/ls directory
