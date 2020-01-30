@@ -11,4 +11,5 @@
 8-James_Bond script that sets the permission to the file hello, Owner to no permissionat all, Group to no permission at all, other to all permissions, 
 9-John_Doe write sets the mode of the file hello -rwxr-x-wx, 
 10-mirror_permissions sets the mode of the file hello the same as ollehs mode, 
-12-directory_permissions creates a directory called dir_holberton with permissions 751 in the working directory
+12-directory_permissions creates a directory called dir_holberton with permissions 751 in the working directory, 
+13-change_group changes the group owner to holberton for the file hello
