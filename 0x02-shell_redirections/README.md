@@ -6,4 +6,5 @@ BBB*Shell, I/O Redirections and filters*
 3-twofiles displays two files /etc/passwd /etc/hosts, 
 4-lastlines displyas last 10 lines /etc/passwd, 
 5-firstlines displyas first 10 lines /etc/passwd, 
-6-third_line displyas third line of iacta file
+6-third_line displyas third line of iacta file, 
+8-cwd_state writes into the file ls_cwd_content the result of the command ls -la
