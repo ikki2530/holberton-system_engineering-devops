@@ -1,0 +1,3 @@
+#!/bin/bash
+PATH = "root/www"
+PATH = "${PATH}/action"
