@@ -1,0 +1,3 @@
+#!/bin/bash
+export TRUEKNOWLEDGE=1200
+echo $((TRUEKNOWLEDGE + 128))
