@@ -17,12 +17,4 @@ Those are the files that you can find into this projects
 |**8-firstdelete** | Deletes the file betty|
 |**9-firstdirdeletion** | Deletes the directory holberton that is in the /tmp directory.|
 |**10-back** | Changes the working directory to the previous one.|
-|**11-lists** | Lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.|
-|**12-file_type** | Prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.|
-|**13-symbolic_link** | Creates a symbolic link to /bin/ls, named __ls__ .|
-|**14-copy_html** | Copies all the HTML files from the current working directory to the parent of the working directory.|
-|**15-lets_move** | Moves all files beginning with an uppercase letter to the directory /tmp/u|
-|**16-clean_emacs** | Deletes all files in the current working directory that end with the character ~|
-|**17-tree** | creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory|
-|**18-commas** | lists all the files and directories of the current directory, separated by commas.|
 |**holberton.mgc** | Magic file holberton.mgc that can be used with the command file to detect Holberton data files|
