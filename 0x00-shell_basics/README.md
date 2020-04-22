@@ -26,4 +26,3 @@ Those are the files that you can find into this projects
 | **17-tree** | creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory |
 | **18-commas** | lists all the files and directories of the current directory, separated by commas. |
 | **holberton.mgc** | Magic file holberton.mgc that can be used with the command file to detect Holberton data files |
-| **holberton.mgc** | Magic file holberton.mgc that can be used with the command file to detect Holberton data files |
