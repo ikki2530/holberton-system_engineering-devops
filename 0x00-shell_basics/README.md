@@ -1,4 +1,4 @@
-# C Printf Project
+# 0x00. Shell, basics
 
 **0x00-shell_basics** Learn about some basic commands of linux cd, ls, pwd, less, file, ln, cp, mv, rm, mkdir, type, which, help and man.
 ---
