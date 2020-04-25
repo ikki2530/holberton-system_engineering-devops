@@ -9,6 +9,7 @@ Learn goals
 # Files
 Those are the files that you can find into this projects
 | File | Features |
+| ---- | ---- |
 | **0-hello_world** | Prints Hello, World |
 | **1-confused_smiley** | Displays a confused smile |
 | **2-hellofile** | Displays the content of /etc/passwd file |
