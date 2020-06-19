@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# display 10 times Holberton School, and change 4-bad luck and 8-by good luck
+
+print="Holberton School"
+cont=1
+while [ $cont -le 10 ];do
+        if [ $cont -eq 4 ]
+        then
+                echo "bad luck"
+        elif [ $cont -eq 8 ]
+        then
+                echo "good luck"
+        else
+                echo "$print"
+        fi
+        ((cont=cont+1))
+done
