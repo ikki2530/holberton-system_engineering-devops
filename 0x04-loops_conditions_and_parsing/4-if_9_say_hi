@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# display 10 times Holberton School, and also Hi for 9th iteration
+
+print="Holberton School"
+cont=1
+while [ $cont -le 10 ];do
+        echo "$print"
+        if [ $cont -eq 9 ]
+        then
+                echo "Hi"
+        fi
+        (( cont+=1 ))
+done
