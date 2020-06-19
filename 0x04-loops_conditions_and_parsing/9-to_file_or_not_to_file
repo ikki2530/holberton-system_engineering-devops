@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# checking different conditions for a file
 
 FILE="holbertonschool"
 # -e Check for file existence, regardless of type (node, directory, socket, etc.)
