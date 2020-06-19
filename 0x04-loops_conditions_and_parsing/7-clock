@@ -5,10 +5,8 @@ min=0
 hour=0
 cont=1
 while [ $cont -le 26 ];do
-        if [ $cont -eq 25 ]
+        if [ $cont -eq 26 ]
         then
-                hour=0
-                echo "Hour: $hour"
                 break
         fi
         echo "Hour: $hour"
