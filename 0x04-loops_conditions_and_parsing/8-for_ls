@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# printing content of current directory
+
+cop=$(ls .)
+for f in $cop;do
+        echo "$f" | cut -d "-" -f 2
+done
