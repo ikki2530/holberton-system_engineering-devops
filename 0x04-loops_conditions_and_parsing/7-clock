@@ -5,7 +5,7 @@ min=59
 hour=0
 cont=1
 while [ $cont -le 26 ];do
-        if [ $hour -gt 12 ]
+        if [[ $hour -gt 12 || $cont -eq 26 ]]
         then
                 hour=0
         fi
