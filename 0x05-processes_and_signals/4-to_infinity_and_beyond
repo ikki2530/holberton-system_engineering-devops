@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# displays To infinity and beyond indefinitely.
+
+print="To infinity and beyond"
+cont=1
+while [ $cont -le 3 ];do
+        echo "$print"
+        cont=$(( cont-1 ))
+done
