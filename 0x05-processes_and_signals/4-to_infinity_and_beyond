@@ -6,4 +6,5 @@ cont=1
 while [ $cont -le 3 ];do
         echo "$print"
         cont=$(( cont-1 ))
+        sleep 2
 done
