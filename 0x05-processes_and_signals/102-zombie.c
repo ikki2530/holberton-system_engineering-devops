@@ -38,10 +38,7 @@ int main(void)
 			exit(0);
 		}
 		count++;
-		printf("count %d\n", count);
 	}
 	infinite_while();
-	printf("child %d %d\n", child, getpid());
-
 	return (0);
 }
