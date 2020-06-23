@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# priting 2 columns
+
+file="apache-access.log"
+awk '{ print $1, $9 }' $file
