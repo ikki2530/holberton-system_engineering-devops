@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # script that configures a new Ubuntu machine, installing nginx as webserver
+# /var/www/html/index.nginx-debian.html
 sudo apt-get update
 sudo apt-get -y install nginx
 sudo /etc/init.d/nginx start
-echo "Holberton School" > /var/www/html/index.nginx-debian.html
+echo "Holberton School" > /usr/share/nginx/html/index.html
 sudo service nginx restart
