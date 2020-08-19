@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Create a certificate using letsencrypt
+
+apt-get install git bc
+# download letsencrypt
+git clone https://github.com/letsencrypt/letsencrypt /opt/letsencrypt
+service haproxy stop
+/opt/letsencrypt/letsencrypt-auto certonly --standalone -d www.xmachine.tech -m 1586@holbertonschool.com --agree-tos
+
+# Configurar HaProxy para usar certificados
+mkdir /etc/haproxy/certs
+cat /etc/letsencrypt/live/www.xmachine.tech/fullchain.pem /etc/letsencrypt/live/www.xmachine.tech/privkey.pem >> /etc/haproxy/certs/www.xmachine.tech.pem
+echo "/etc/haproxy/certs/www.xmachine.tech.pem       www.xmachine.tech" >>  /etc/haproxy/certs/list.txt
+
+# Configurando HaProxy, agregar en el archivo /etc/haproxy/haproxy.cfg
+# frontend haproxynode
+#	bind *:80
+#	bind *:443 ssl crt-list /etc/haproxy/certs/list.txt
+#	reqadd X-Forwarded-Proto:\ https
+#	acl letsencrypt-acl path_beg /.well-known/acme-challenge/
+#	use_backend letsencrypt-backend if letsencrypt-acl
+#	mode http
+#	default_backend backendnodes
+
+# backend backendnodes
+# 	balance roundrobin
+#	mode http
+#	option forwardfor
+#	server 1586-web-01 34.74.192.152:80 check
+#	server 1586-web-02 35.237.243.141:80 check
+
+# backend letsencrypt-backend
+# 	server letsencrypt 127.0.0.1:54321
