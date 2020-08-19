@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Configure subdomains, $1 is the domain, $2 is the subdomain
+
+func () {
+    domain="$1"
+    subdomain="$2"
+    if [ ! -z "$domain" ] && [ ! -z "$subdomain" ]; then
+	dig "$subdomain.$domain" | grep -A1 'ANSWER SECTION:' | tail -n1 | awk -v my_sub="$subdomain" '{print "The subdomain " my_sub " is a "  $4 " record and points to "$5}'
+    elif [ ! -z "$domain" ]; then
+	dig "www.$domain" | grep -A1 'ANSWER SECTION:' | tail -n1 | awk '{print "The subdomain www is a " $4 " record and points to "$5}'
+	dig "lb-01.$domain" | grep -A1 'ANSWER SECTION:' | tail -n1 | awk '{print "The subdomain lb-01 is a " $4 " record and points to "$5}'
+	dig "web-01.$domain" | grep -A1 'ANSWER SECTION:' | tail -n1 | awk '{print "The subdomain web-01 is a " $4 " record and points to "$5}'
+	dig "web-02.$domain" | grep -A1 'ANSWER SECTION:' | tail -n1 | awk '{print "The subdomain web-02 is a " $4 " record and points to "$5}'
+    fi
+}
+
+func "$1" "$2"
