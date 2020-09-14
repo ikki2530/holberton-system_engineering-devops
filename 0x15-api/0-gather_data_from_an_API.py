@@ -25,7 +25,7 @@ if __name__ == "__main__":
         if completed_status:
             c += 1
 
-    print("Employee {} is done with tasks({}/{})".format(name, c, total_todo))
+    print("Employee {} is done with tasks({}/{}):".format(name, c, total_todo))
     for task in todo_list:
         completed_status = task.get('completed')
         if completed_status:
