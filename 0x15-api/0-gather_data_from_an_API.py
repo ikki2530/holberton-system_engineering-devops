@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""returns information about an employee, TODO list progress."""
+"""returns information about an employee, TO DO list progress."""
 import requests
 import sys
 
@@ -30,4 +30,4 @@ if __name__ == "__main__":
         completed_status = task.get('completed')
         if completed_status:
             title = task.get("title")
-            print("\t", title)
+            print("  {}".format(title))
