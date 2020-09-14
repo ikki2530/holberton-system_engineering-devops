@@ -18,8 +18,9 @@ if __name__ == "__main__":
 
     total_todo = len(todo_list)
     username = user_info.get("username")
+    filename = u_id + ".csv"
 
-    with open("2.csv", "w") as f:
+    with open(filename, "w") as f:
         csv_write = csv.writer(f, quotechar='"', quoting=csv.QUOTE_ALL)
         lista = []
         for task in todo_list:
