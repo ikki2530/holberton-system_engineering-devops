@@ -30,4 +30,4 @@ if __name__ == "__main__":
         completed_status = task.get('completed')
         if completed_status:
             title = task.get("title")
-            print("  {}".format(title))
+            print("\t {}".format(title))
