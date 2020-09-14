@@ -12,7 +12,6 @@ if __name__ == "__main__":
     response_todo = requests.get(url)
     response_user = requests.get(url_user)
 
-
     todo_list = response_todo.json()
     user_info = response_user.json()
 
