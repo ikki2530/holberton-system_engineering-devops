@@ -9,7 +9,6 @@ if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/todos/?userId={}".format(u_id)
     url_user = "https://jsonplaceholder.typicode.com/users/{}".format(u_id)
 
-    print("url:", url)
     response_todo = requests.get(url)
     response_user = requests.get(url_user)
 
